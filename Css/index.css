@@ -132,12 +132,34 @@ body.dark-mode .contact:hover {
         display: flow-root;
     }
 
+    section.presentation {
+        padding-top: 42%;
+    }
+
     #portfolio {
         width: 83%;
         margin: 0 auto;
-        padding: 3% 0;
+        padding-top: 43%;
         text-align: center;
 }
+    .menu-nav {
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 80px;
+        padding-right: 3px;
+        gap: 16px;
+        height: 22px;
+    }
+
+    .icons-reseaux {
+        display: none;
+    }
+
+    nav ul {
+        margin-block: 42px;
+        padding: 0;
+        list-style: none;
+    }
 }
 
 @media screen and (max-width: 600px) {
@@ -158,10 +180,32 @@ body.dark-mode .contact:hover {
         display: flow-root;
     }
 
+    section.presentation {
+        padding-top: 42%;
+    }
+
     #portfolio {
         width: 83%;
         margin: 0 auto;
-        padding: 3% 0;
+        padding-top: 43%;
         text-align: center;
 }
+    .menu-nav {
+        background-color: black;
+        padding: 10px 20px;
+        border-radius: 80px;
+        padding-right: 3px;
+        gap: 16px;
+        height: 22px;
+    }
+
+    .icons-reseaux {
+        display: none;
+    }
+
+    nav ul {
+        margin-block: 42px;
+        padding: 0;
+        list-style: none;
+    }
 }
