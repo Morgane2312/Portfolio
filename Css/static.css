@@ -12,7 +12,7 @@ body {
 }
 
 section.presentation {
-    padding-top: 12%;
+    padding-top: 20%;
 }
 
 body {
@@ -410,7 +410,7 @@ body.dark-mode .contact:hover {
 #portfolio {
     width: 80%;
     margin: 0 auto;
-    padding-top: 18%;
+    padding-top: 14%;
     text-align: center;
 }
 
