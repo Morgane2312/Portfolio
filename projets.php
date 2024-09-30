@@ -16,7 +16,7 @@
         <nav>   
             <ul>
                 <section class='menu-nav'>
-                    <li class="active"><a href="index.html">Accueil</a></li>
+                    <li class="active"><a href="index.php">Accueil</a></li>
                     <li><a href="projets.php">Mes Projets</a></li>
                     <li><a href="competences.php">Compétences</a></li>
                     <section class='rectangle-noir'>
