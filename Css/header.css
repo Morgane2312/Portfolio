@@ -10,12 +10,14 @@ body {
     backdrop-filter: brightness(98%);
     background-position: center top;
     background-repeat: no-repeat;
-}
-
-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
     background-color: white;
     color: black;
 }
+
 
 body.dark-mode {
     background-color: black;
@@ -31,12 +33,6 @@ h2{
     color: #FF7A00;
 }
 
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    min-height: 100vh;
-}
 
 .droit {
     display: flex;
@@ -58,7 +54,7 @@ nav ul, .menu-nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 20px;
+    margin-top: 20px;
 }
 
 .menu-nav a {
