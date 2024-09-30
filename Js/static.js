@@ -19,38 +19,38 @@ function myFunction() {
         body.classList.remove("dark-mode");
         body.classList.add("light-mode");
 
-        instagramIcon.src = "Assets/Icons/instagram-noir.png";
-        tiktokIcon.src = "Assets/Icons/tiktok-noir.png";
-        discordIcon.src = "Assets/Icons/discord-noir.png";
+        instagramIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/Icons/instagram-noir.png?raw=true";
+        tiktokIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/Icons/tiktok-noir.png?raw=true";
+        discordIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/Icons/discord-noir.png?raw=true";
 
-        htmlIcon.src = "assets/competences/html.png";
-        cssIcon.src = "assets/competences/css.png";
-        jsIcon.src = "assets/competences/js.png";
-        wordpressIcon.src = "assets/competences/wordpress.png";
-        sqlIcon.src = "assets/competences/sql.png";
-        figmaIcon.src = "assets/competences/figma.png";
-        xdIcon.src = "assets/competences/xd.png";
-        photoshopIcon.src = "assets/competences/photoshop.png";
-        vscIcon.src = "assets/competences/vsc.png";
-        visualstudioIcon.src = "assets/competences/visual-studio.png";
+        htmlIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/html.png?raw=true";
+        cssIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/css.png?raw=true";
+        jsIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/js.png?raw=true";
+        wordpressIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/wordpress.png?raw=true";
+        sqlIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/sql.png?raw=true";
+        figmaIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/figma.png?raw=true";
+        xdIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/xd.png?raw=true";
+        photoshopIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/photoshop.png?raw=true";
+        vscIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/vsc.png?raw=true";
+        visualstudioIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/visual-studio.png?raw=true";
     } else {
         body.classList.remove("light-mode");
         body.classList.add("dark-mode");
 
-        instagramIcon.src = "Assets/Icons/instagram.png";
-        tiktokIcon.src = "Assets/Icons/tiktok.png";
-        discordIcon.src = "Assets/Icons/discord.png";
+        instagramIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/Icons/instagram.png?raw=true";
+        tiktokIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/Icons/tiktok.png?raw=true";
+        discordIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/Icons/discord.png?raw=true";
 
-        htmlIcon.src = "assets/competences/html-blanc.png";
-        cssIcon.src = "assets/competences/css-blanc.png";
-        jsIcon.src = "assets/competences/js-blanc.png";
-        wordpressIcon.src = "assets/competences/wordpress-blanc.png";
-        sqlIcon.src = "assets/competences/sql-blanc.png";
-        figmaIcon.src = "assets/competences/figma-blanc.png";
-        xdIcon.src = "assets/competences/xd-blanc.png";
-        photoshopIcon.src = "assets/competences/photoshop-blanc.png";
-        vscIcon.src = "assets/competences/vsc-blanc.png";
-        visualstudioIcon.src = "assets/competences/visual-studio-blanc.png";
+        htmlIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/html-blanc.png?raw=true";
+        cssIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/css-blanc.png?raw=true";
+        jsIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/js-blanc.png?raw=true";
+        wordpressIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/wordpress-blanc.png?raw=true";
+        sqlIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/sql-blanc.png?raw=true";
+        figmaIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/figma-blanc.png?raw=true";
+        xdIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/xd-blanc.png?raw=true";
+        photoshopIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/photoshop-blanc.png?raw=true";
+        vscIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/vsc-blanc.png?raw=true";
+        visualstudioIcon.src = "https://github.com/Morgane2312/Portfolio/blob/master/Assets/competences/visual-studio-blanc.png?raw=true";
     }
 }
 
