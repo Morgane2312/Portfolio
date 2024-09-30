@@ -1,0 +1,115 @@
+#portfolio {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 3%;
+    text-align: center;
+}
+
+p{
+    font-family: 'Livvic';
+    font-size: 17px;
+    color: #000000;
+}
+
+h1 {
+    padding-bottom: 25px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 70px;
+    margin: 0;
+    color: #000000;
+}
+
+h1, h2,h3, p {
+    color: #000000;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode h3,
+body.dark-mode p {
+    color: white;
+}
+
+#skills {
+    margin: 4vh 0px !important;
+    padding: 2vh 0px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills-icon {
+    width: 115px;
+    height: 125px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.icon-image {
+    width: 100px;
+    height: 100px;
+}
+
+.skills-icon h3 {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: #000000;
+}
+
+.skills-icon:hover h3 {
+    opacity: 1; 
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 37px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .presentation {
+        padding-left: 5%;
+        display: flow-root;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 37px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .presentation {
+        padding-left: 5%;
+        display: flow-root;
+    }
+    #portfolio {
+        width: 83%;
+        margin: 0 auto;
+        padding: 3% 0;
+        text-align: center;
+}
+}

@@ -1,0 +1,55 @@
+body {
+  background-color: rgb(255, 255, 255);
+  padding: 0;
+  background-size: cover;
+  height: auto;
+  display: flow-root;
+  font-family: "Livvic", sans-serif;
+  margin: 0px;
+}
+
+
+@media screen and (max-width: 768px) {
+  h1{
+      font-size: 37px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+
+  h2 {
+      font-size: 15px;
+  }
+
+  .presentation {
+      padding-left: 5%;
+      display: flow-root;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  h1{
+      font-size: 37px;
+  }
+
+  p {
+      font-size: 15px;
+  }
+
+  h2 {
+      font-size: 25px;
+  }
+
+  .presentation {
+      padding-left: 5%;
+      display: flow-root;
+  }
+
+  #portfolio {
+    width: 83%;
+    margin: 0 auto;
+    padding: 3% 0;
+    text-align: center;
+}
+}

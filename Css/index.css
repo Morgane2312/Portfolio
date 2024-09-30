@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900&display=swap');
+
+body {
+    background-color: rgb(255, 255, 255);
+    color: black;
+    padding: 0;
+    background-size: cover;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+h1 {
+    padding-bottom: 17px;
+    font-family: 'Livvic', sans-serif;
+    font-size: 70px;
+    margin: 0;
+    color: #000000;
+}
+
+h2 {
+    letter-spacing: 5px;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 300;
+    font-size: 30px;
+    margin-top: 95px;
+    margin: 0;
+    color: #000000;
+    display: flex;
+    justify-content: left;
+}
+
+
+p {
+    text-align: justify;
+    font-family: 'Livvic', sans-serif;
+    margin: 0;
+    color: #000000;
+    font-weight: 300;
+    font-size: 19px;
+}
+
+body {
+    padding: 0;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.active-link {
+    color: #FF7A00;
+}
+
+
+h1, p {
+    color: #000000;
+    opacity: 1;
+    margin: 0;
+}
+h1, h2 {
+    font-family: 'Livvic';
+}
+
+p {
+    text-align: justify;
+    font-family: "Livvic";
+    font-weight: 300;
+}
+
+
+.presentation {
+    padding-left: 14%;
+    display: flow-root;
+}
+
+.contact {
+    display: inline-block;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 25px;
+    border-radius: 35px;
+    border: 3px solid black;
+    font-family: 'Livvic', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.contact:hover {
+    background-color: #2f2f2f;
+}
+
+h1, h2, p {
+    color: #000000;
+}
+
+body.dark-mode h1,
+body.dark-mode h2,
+body.dark-mode p {
+    color: white;
+}
+
+body.dark-mode .contact {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+body.dark-mode .contact:hover {
+    background-color: rgb(213, 213, 213);
+    border-color: rgb(213, 213, 213);
+}
+
+@media screen and (max-width: 768px) {
+    h1{
+        font-size: 37px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .presentation {
+        padding-left: 5%;
+        display: flow-root;
+    }
+
+    #portfolio {
+        width: 83%;
+        margin: 0 auto;
+        padding: 3% 0;
+        text-align: center;
+}
+}
+
+@media screen and (max-width: 600px) {
+    h1{
+        font-size: 37px;
+    }
+
+    p {
+        font-size: 15px;
+    }
+
+    h2 {
+        font-size: 25px;
+    }
+
+    .presentation {
+        padding-left: 5%;
+        display: flow-root;
+    }
+
+    #portfolio {
+        width: 83%;
+        margin: 0 auto;
+        padding: 3% 0;
+        text-align: center;
+}
+}
