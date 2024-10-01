@@ -183,6 +183,10 @@ nav .icons2 a {
     body.dark-mode nav a {
         color: black;
     }
+
+    body.dark-mode nav {
+        background-color: black;
+    }    
     
     body.dark-mode .menu-nav {
         background-color: white;
