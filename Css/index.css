@@ -69,6 +69,7 @@ p {
 
 
 .presentation {
+    padding-top: 5%;
     padding-left: 14%;
     display: flow-root;
 }
