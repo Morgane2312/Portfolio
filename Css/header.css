@@ -58,6 +58,9 @@ nav ul, .menu-nav {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+ul{
     margin-top: 20px;
 }
 
